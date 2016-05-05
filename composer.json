@@ -2,7 +2,6 @@
     "name": "andyftw/image-faker",
     "description": "Image provider for Faker",
     "homepage": "https://github.com/andyftw/image-faker",
-    "version": "1.0.0",
     "keywords": ["faker", "fixtures"],
     "license": "MIT",
     "authors": [
