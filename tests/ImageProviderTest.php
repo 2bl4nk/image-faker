@@ -65,12 +65,12 @@ class ImageProviderTest extends \PHPUnit_Framework_TestCase
     /**
      * Test using a font file.
      */
-    public function testFontFile()
-    {
-        $font = __DIR__.'/../res/OpenSans-Regular.ttf';
-        $this->files[] = $test = $this->faker->imageFile(null, 640, 480, 'png', true, null, null, null, $font);
-        $this->_testImage($test);
-    }
+    // public function testFontFile()
+    // {
+    //     $font = __DIR__.'/../res/OpenSans-Regular.ttf';
+    //     $this->files[] = $test = $this->faker->imageFile(null, 640, 480, 'png', true, null, null, null, $font);
+    //     $this->_testImage($test);
+    // }
 
     /**
      * Test using text using a color without a hex.
