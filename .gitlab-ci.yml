@@ -5,4 +5,4 @@ stages:
 RunTests:
   stage: test
   script:
-    - php vendor/bin/phpunit --colors --coverage-text
+    - php vendor/bin/phpunit --colors

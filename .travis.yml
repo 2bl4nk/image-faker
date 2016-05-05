@@ -20,4 +20,4 @@ before_script:
 
 script:
   # PHPUnit
-  - php vendor/bin/phpunit --colors --coverage-text
+  - php vendor/bin/phpunit --colors
